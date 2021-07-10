@@ -1,0 +1,56 @@
+[data-date*="-01-"] {
+    background-color: #0080ff;
+}
+
+[data-date*="-02-"] {
+    background-color: #00ffff;
+}
+
+[data-date*="-03-"] {
+    background-color: #00ff80;
+}
+
+[data-date*="-04-"] {
+    background-color: #00ff00;
+}
+
+[data-date*="-05-"] {
+    background-color: #80ff00;
+}
+
+[data-date*="-06-"] {
+    background-color: #ffff00;
+}
+
+[data-date*="-07-"] {
+    background-color: #ff8000;
+}
+
+[data-date*="-08-"] {
+    background-color: #ff0000;
+}
+
+[data-date*="-09-"] {
+    background-color: #ff0080;
+}
+
+[data-date*="-10-"] {
+    background-color: #ff00ff;
+}
+
+[data-date*="-11-"] {
+    background-color: #8000ff;
+}
+
+[data-date*="-12-"] {
+    background-color: #0000ff;
+}
+
+.fc-day-today {
+    background-color: #ffffff !important;
+}
+
+.fc-daygrid-week-number {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+}

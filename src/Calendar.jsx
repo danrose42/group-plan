@@ -13,17 +13,26 @@ export default class Calendar extends React.Component {
           headerToolbar={{
             left: 'prev,next today',
             center: 'title',
-            right: 'dayGridYear,dayGridMonth,timeGridWeek,timeGridDay'
+            right: 'dayGridYear,dayGridMonth,timeGridWeek'
           }}
           views={{
             dayGridYear: {
               type: 'dayGrid',
-              duration: { months: 12 },
+              duration: { years: 1 },
               buttonText: 'year'
+            },
+            timeGridWeek: {
+              dayHeaderFormat: {
+                weekday: 'short',
+                month: 'short',
+                day: 'numeric'
+              }
             }
           }}
-          initialView="dayGridMonth"
+          initialView="dayGridYear"
           selectable={true}
+          firstDay={1}
+          weekNumbers={true}
         />
       </div>
     )
